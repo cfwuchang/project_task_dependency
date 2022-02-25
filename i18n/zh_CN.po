@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_task_dependency
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.0.9\n"
+"Last-Translator: \n"
+"Language: zh_CN\n"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__create_uid
+msgid "Created by"
+msgstr "创建于"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__create_date
+msgid "Created on"
+msgstr "创建在"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__dependency_task_ids
+#: model_terms:ir.ui.view,arch_db:project_task_dependency.project_task_form
+msgid "Dependencies"
+msgstr "依赖"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__depending_task_ids
+msgid "Depending Tasks"
+msgstr "不同的任务"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_project__display_name
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__display_name
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_project__id
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__id
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__id
+msgid "ID"
+msgstr ""
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_project____last_update
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task____last_update
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map____last_update
+msgid "Last Modified on"
+msgstr "最后修改时间"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__write_uid
+msgid "Last Updated by"
+msgstr "最后更新人"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__write_date
+msgid "Last Updated on"
+msgstr "最后更新时间"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__new_task_id
+msgid "New Task"
+msgstr "新任务"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task_copy_map__old_task_id
+msgid "Old Task"
+msgstr "旧内容"
+
+#. module: project_task_dependency
+#: model:ir.model,name:project_task_dependency.model_project_project
+msgid "Project"
+msgstr "项目"
+
+#. module: project_task_dependency
+#: model:ir.model,name:project_task_dependency.model_project_task_copy_map
+msgid "Project Task Copy Map"
+msgstr "项目任务"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__recursive_dependency_task_ids
+msgid "Recursive Dependencies"
+msgstr "递归依赖关系"
+
+#. module: project_task_dependency
+#: model:ir.model.fields,field_description:project_task_dependency.field_project_task__recursive_depending_task_ids
+msgid "Recursive Depending Tasks"
+msgstr "递归不同的任务"
+
+#. module: project_task_dependency
+#: model:ir.model,name:project_task_dependency.model_project_task
+msgid "Task"
+msgstr ""
+
+#. module: project_task_dependency
+#: model:ir.model.fields,help:project_task_dependency.field_project_task__recursive_depending_task_ids
+msgid "Tasks that are dependent on this task (recursive)."
+msgstr ""
+
+#. module: project_task_dependency
+#: model:ir.model.fields,help:project_task_dependency.field_project_task__depending_task_ids
+msgid "Tasks that are dependent on this task."
+msgstr ""
+
+#. module: project_task_dependency
+#: code:addons/project_task_dependency/models/project_task.py:0
+#, python-format
+msgid "You cannot create recursive dependencies between tasks."
+msgstr ""
